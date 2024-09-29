@@ -1,0 +1,8 @@
+ 2276  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+ 2277  grep PHP wilders.csv | grep France | grep 2019 > list.csv
+ 2278  wc -l list.csv > PHP_France_2019.csv
+ 2279  cat PHP_France_2019.csv 
+ 2280  grep JavaScript wilders.csv | grep Biarritz > Javascript_Biarritz_Toulouse.csv
+ 2281  grep JavaScript wilders.csv | grep Toulouse >> Javascript_Biarritz_Toulouse.csv
+ 2282  cat Javascript_Biarritz_Toulouse.csv 
+ 2283  history | tail -n 8 > history.txt
